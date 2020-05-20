@@ -1,31 +1,30 @@
 [user]
-	email = pcjpcj2@gmail.com
-	name = ChangJoo Park(박창주)
+	email = yunsub2@gmail.com
+	name = Yunseop Kim(김윤섭)
 [core]
-	excludesfile = /Users/changjoo-park/.gitignore_global
+	excludesfile = /Users/yunseop-kim/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [commit]
-	template = /Users/changjoo-park/.stCommitMsg
+	template = /Users/yunseop-kim/.stCommitMsg
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
 [init]
-	templatedir = /Users/changjoo-park/.git-templates
+	templatedir = /Users/yunseop-kim/.git-templates
 [alias]
 	a = add
 	ca = commit -a
 	cam = commit -m
 	s = status
 	pom = push origin master
-        pog = push origin gh-pages
-        puom = pull origin master
-        puog = pull origin gh-pages
-        cob = checkout -b
-
+  pog = push origin gh-pages
+  puom = pull origin master
+  puog = pull origin gh-pages
+  cob = checkout -b
